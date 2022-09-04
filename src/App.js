@@ -1,16 +1,12 @@
-
+import TODO from './component/todo'
 function App() {
   return (
     <div>
       <h1>My ToDo</h1>
-
-      <div className='card'>
-        <h2>TITLE</h2>
-        <div className="action">
-          <button className="delete-btn">DELETE</button>
-        </div>
-      </div>
-      
+      <TODO text='todo1'></TODO>
+      <TODO text ='todo2'></TODO>
+      <TODO text ='todo3'></TODO>
+      <TODO text ='todo4'></TODO>
     </div>
   );
 }
